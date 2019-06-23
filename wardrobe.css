@@ -1,0 +1,25 @@
+body { 
+  background: url(https://longwallpapers.com/Desktop-Wallpaper/colorful-galaxy-wallpapers-full-hd-For-Desktop-Wallpaper.jpg);
+  background-size: cover;
+}
+
+img {
+	width: 600px;
+	height: 250px;
+}
+
+.cardss {
+	margin-top: 20px;
+	margin-left: 15px;
+	display: grid;
+	grid-gap: 10px;
+	grid-template-columns: repeat(auto-fill,minmax(250px,1fr));
+	grid-template-rows: repeat(auto-fill,minmax(150px,1fr));
+}
+
+.paragraph {
+	background-color: black;
+	color: white;
+	font-size: 12px;
+	text-align: center;
+}

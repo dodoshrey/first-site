@@ -1,0 +1,10 @@
+body {
+	background-color: black;
+	color: white;
+}
+
+.a {
+	display: grid;
+	grid-template-columns: 1fr;
+	text-align: center;
+}
