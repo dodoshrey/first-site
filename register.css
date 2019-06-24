@@ -10,7 +10,10 @@ html {
 }
 
 body {
-	background-color: rgba(218, 34, 255, 0.1);
+	background: linear-gradient(to right,blue,orange,green,pink,red,purple,black,white,grey,yellow,violet,magenta,silver,gold);
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 1fr;
 }
 
 .abc {
@@ -39,25 +42,25 @@ body {
 	top: 0;
 	left: 0;
 	width: 100%;
-	height: 43rem;
-	background: linear-gradient(to left, #fc6767, #ec008c);
+	height: 40rem;
+	background: linear-gradient(to left, red, blue);
 	border-bottom-right-radius: 100%;
 	border-bottom-left-radius: 100%; 
 	z-index: -1;
 }
 
 .heading {
-	color: #fff;
+	color: yellow;
 	font-size: 3rem;
 	position: absolute;
 	top: 3.5rem;
-	left: 10rem;
+	left: 9rem;
 }
 
 form {
-	transform: translateX(10rem);
+	transform: translateX(8rem);
 	padding: 2rem 0;
-	background-color: #fff;
+	background: #fff;
 	border-radius: 2rem;
 	box-shadow: 0 1px 1.5rem rgba(0,0,0,1);
 }
